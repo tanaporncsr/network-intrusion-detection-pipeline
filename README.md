@@ -51,22 +51,22 @@ These results highlight the importance of evaluating feature engineering techniq
 
 ## Web Application — NetGuard
 
-A Streamlit web application was developed to demonstrate the network intrusion classification system.
+A Streamlit web application was developed to demonstrate the network intrusion classification system. [Try the App](https://network-intrusion-detection-pipeline-b46g4ns3jh582j5oqbwpha.streamlit.app)
 
 ### 1. Threat Detection
 Users can enter network connection details manually and receive a prediction with its confidence level, severity, and suggested action.
 
-<!-- Add Threat Detection screenshot here -->
+![Streamlit Application Screenshot](images/threat-detection-screenshot.png)
 
 ### 2. Batch Analysis
 Users can upload network data files in supported formats to classify multiple connections. The results can be reviewed, filtered, and downloaded.
 
-<!-- Add Batch Analysis screenshot here -->
+![Streamlit Application Screenshot](images/batch-analysis-screenshot.png)
 
 ### 3. Threat Dashboard
 The dashboard provides an overview of analyzed connections, detected threats, threat rates, severity levels, and recent analysis history.
 
-<!-- Add Threat Dashboard screenshot here -->
+![Streamlit Application Screenshot](images/threat-dashboard-screenshot.png)
 
 The application uses the trained model developed in this project. Uploaded files must contain data in a format compatible with the model's input features.
 
